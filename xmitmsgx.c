@@ -19,6 +19,9 @@
 #include <syslog.h>
 #include <errno.h>
 
+#include <libgen.h>
+#include <ctype.h>
+
 #include "xmitmsgx.h"
 
 struct MSGSTRUCT *msglobal = NULL, msstatic;
